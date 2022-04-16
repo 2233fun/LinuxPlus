@@ -8,4 +8,6 @@ class Cperson
 	private:
 		Cperson(){}
 		~Cperson(){}
+	private:
+		static Cperson* ps;
 }
